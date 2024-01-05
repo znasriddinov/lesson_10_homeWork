@@ -1,0 +1,160 @@
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rubik-v28-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* rubik-500 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/rubik-v28-latin-500.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+    background: #230E2B;
+}
+
+body {
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.div {
+    background: #1B0522;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50px;
+}
+
+.div h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.nav__tittle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    margin-top: 30px;
+}
+
+.nav__tittle img {
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btns a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.btn {
+    border: 1px solid rgb(255, 106, 0);
+    padding: 11px 36px;
+    border-radius: 500px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dating {
+    margin-top: 110px;
+}
+
+.dating-top {
+    text-align: center;
+}
+
+.dating-top h1 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+.dating-top p {
+    font-size: 16px;
+    width: 846px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.dating-bottom {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.inp {
+    border: 1px solid transparent;
+    border-radius: 500px;
+    padding: 23px 89px 23px 30px;
+    display: flex;
+    width: 380px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    background: #42204E;
+}
+
+
+.inp input {
+    border: 0;
+    background: #42204E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.inp img {
+    background-color: #42204E;
+}
+
+.inp:nth-child(2) {
+    margin-top: 10px;
+}
+
+.btn2 {
+    font-size: 16px;
+    padding: 23px 165px;
+    font-weight: 500;
+    line-height: 24px;
+    background: rgb(238, 9, 121);
+    background: linear-gradient(90deg, rgba(238, 9, 121, 1) 25%, rgba(255, 106, 0, 1) 100%);
+    border: 1px solid transparent;
+}
